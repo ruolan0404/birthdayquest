@@ -198,7 +198,7 @@ function cake(){
     c.clearRect(0,0,32,32);
     bits.forEach(function(p){p.y+=p.v;if(p.y>32){p.y=-1;p.x=Math.random()*32}r(p.c,p.x|0,p.y|0,1,1)});
     r('#5a3d6b',5,27,22,2);r('#fff',6,26,20,1);
-    r('#8fc4ff',8,19,16,7);r('#fff',8,19,16,2);r('#ffe08a',10,22,2,2);r('#ffe08a',15,23,2,2);r('#ffe08a',20,22,2,2);
+    r('#8fc4ff',8,19,16,7);r('#fff',8,19 ,16,2);r('#ffe08a',10,22,2,2);r('#ffe08a',15,23,2,2);r('#ffe08a',20,22,2,2);
     r('#b9a6ff',10,13,12,6);r('#fff',10,13,12,2);
     [11,15,19].forEach(function(k){r('#9be8d0',k,9,2,4);r('#ff9a3d',k,6-((f>>3)%2),2,3);r('#ffe08a',k,6-((f>>3)%2),1,2)});
     f++;requestAnimationFrame(lp);
